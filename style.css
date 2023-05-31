@@ -91,6 +91,7 @@ h1 {
 
 .line {
   margin-bottom: 20px;
+  border: 1px solid #2F415B;
 }
 
 .user_info {
