@@ -16,10 +16,6 @@ body {
   font-family: 'Oxygen', sans-serif;
 }
 
-img {
-  width: 100%;
-  height: auto;
-}
 
 .main {
   background-color: hsl(216, 50%, 16%);
