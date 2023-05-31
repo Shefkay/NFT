@@ -118,11 +118,3 @@ span {
   color: white;
   font-weight: bold;
 }
-
-@media screen (max-width: 375px) {
-  body {}
-}
-
-@media screen (max-width: 1440px) {
-  body {}
-}
