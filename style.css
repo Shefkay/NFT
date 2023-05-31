@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(217, 54%, 11%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  /* height: 100vh; */
+  font-family: 'Oxygen', sans-serif;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.main {
+  background-color: hsl(216, 50%, 16%);
+  padding: 2rem;
+  max-width: 400px;
+  border-radius: 20px;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.image {
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+h1 {
+  margin-bottom: 1.5rem;
+  margin-top: 1rem;
+  font-size: 1.6rem;
+  color: white;
+
+}
+
+.text {
+  font-size: 20px;
+  color: hsl(215, 51%, 70%);
+  line-height: 1.6;
+}
+
+.ethereum_clock {
+  /* border: 1px solid; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+
+}
+
+.first {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.eth {
+  color: hsl(178, 100%, 50%);
+  font-weight: bold;
+}
+
+.clock {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.day {
+  color: hsl(215, 51%, 70%);
+}
+
+.img1,
+.img2 {
+  width: 15px;
+}
+
+.line {
+  margin-bottom: 20px;
+}
+
+.user_info {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.avatar {
+  border: 1px solid white;
+  border-radius: 100%;
+  margin-right: 15px;
+}
+
+.user_img {
+  object-fit: cover;
+  width: 50px;
+}
+
+.cre {
+  color: hsl(215, 51%, 70%);
+}
+
+span {
+  color: white;
+  font-weight: bold;
+}
+
+@media screen (max-width: 375px) {
+  body {}
+}
+
+@media screen (max-width: 1440px) {
+  body {}
+}
